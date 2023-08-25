@@ -1,0 +1,377 @@
+/*! Responsiveness: */
+/*? Home Section */
+@media screen and (max-width:1045px) {
+
+    .product-card img,
+    .name-price {
+        width: 180px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .navbar {
+        z-index: 2;
+    }
+
+    .nav-bottom-section {
+        position: absolute;
+        z-index: 2;
+    }
+
+    .pad-start {
+        padding-left: 15px !important;
+    }
+
+    .hamburger {
+        display: flex;
+        z-index: 99;
+    }
+
+    .navbar-collapse {
+        padding-left: 10px;
+        justify-content: flex-start !important;
+    }
+
+    .navbar-nav {
+        align-items: flex-start !important;
+    }
+
+    .pro-img {
+        width: 150px !important;
+    }
+
+    .brands-trusted img {
+        width: 100px;
+    }
+
+    .log-btn {
+        padding: 0;
+        margin: 8px 0;
+    }
+
+    .pg-navigate {
+        margin-top: 50px !important;
+    }
+
+    .show-my-image {
+        flex-direction: row;
+    }
+    .contact-head {
+        margin-top: 5rem !important;
+    }
+    .no-cart {
+        margin-top: 4rem !important;
+    }
+    .cart-section {
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .carousel-section {
+        top: -50px;
+    }
+
+    .fp {
+        flex-direction: column !important;
+    }
+
+    .fp .product-card img,
+    .fp .name-price {
+        width: 200px;
+    }
+
+    .name-price p {
+        margin-bottom: 0.5rem;
+    }
+
+    .feature-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .feature-section h2,
+    .bg-purple,
+    .trust-head {
+        font-size: 30px;
+    }
+
+    .bg-purple {
+        padding-left: 0 !important;
+    }
+
+    .service-section h2 {
+        font-size: 38px;
+    }
+
+    .check-head {
+        width: 200px;
+    }
+
+    .service-card p {
+        font-size: 15px;
+    }
+
+    .brands-trusted img {
+        width: 65px !important;
+    }
+
+    .main-product .container {
+        max-width: none !important;
+    }
+
+    .list-view,
+    .res-list {
+        padding: 0 5vw;
+    }
+
+    .hover-dark {
+        width: 30vw;
+    }
+    .product-name {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:630px) {
+    .carousel-section {
+        top: -10px;
+    }
+
+    .hero-section {
+        top: 250px;
+    }
+
+    .carousel-inner,
+    .carousel-item div {
+        height: 150px;
+    }
+
+    .pro-img {
+        width: 80px !important;
+    }
+}
+
+@media screen and (max-width:590px) {
+    .main-product .container .row .col-4 {
+        width: 50%;
+    }
+    .label-tag {
+        width: 90%;
+        font-size: 1rem;
+    }
+    .input-1, .input-2, .input-3 {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .single-product-page .g-5 {
+        --bs-gutter-y: 0 !important;
+        --bs-gutter-x: 0 !important;
+    }
+}
+
+@media screen and (max-width:470px) {
+    .carousel-section {
+        top: 0px;
+    }
+
+    .hero-section {
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+    }
+
+    .welcome {
+        font-size: 20px;
+    }
+
+    .hero-brand {
+        font-size: 3.3rem;
+    }
+
+    .hero-content p {
+        font-size: 13px;
+    }
+
+    .hero-video video {
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width:465px) {
+    .show-my-image img {
+        width: 65px;
+    }
+
+    .product-description {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .main-product .container .row .col-4 {
+        width: 100%;
+    }
+
+    .res-list h3 {
+        font-size: 16px;
+    }
+
+    .res-list p {
+        font-size: 12.5px;
+        margin-bottom: 5px !important;
+    }
+
+    .more-btn {
+        font-size: 13px;
+        height: 30px;
+        width: 85px;
+    }
+
+    .list-view .row .col-4 {
+        background-color: #e4d5f3;
+    }
+
+    .pg-navigate,
+    .pg-home {
+        font-size: 20px;
+    }
+
+    .main-my-image img {
+        width: 230px;
+    }
+
+    .product-description {
+        margin-bottom: 0 !important;
+    }
+
+    .product-warranty {
+        justify-content: space-evenly !important;
+    }
+
+    .warranty-img {
+        font-size: 30px;
+    }
+
+    .warranty-data p {
+        font-size: 12px;
+    }
+
+    .res-war {
+        flex-direction: column !important;
+    }
+    .contact-head {
+        margin-top: 4rem !important;
+        margin-bottom: 2rem !important;
+        font-size: 2rem;
+    }
+    .error-section video {
+        width: 80% !important;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .carousel-section {
+        top: 50px;
+    }
+
+    .carousel-section .carousel .slide img,
+    .carousel {
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .carousel-section {
+        top: 60px;
+    }
+
+    .carousel-section .carousel .slide img,
+    .carousel {
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+
+    .hero-section {
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+
+    .trust-head {
+        font-size: 22px;
+    }
+
+    .brands-trusted {
+        flex-direction: column !important;
+    }
+
+    .brands-trusted img {
+        width: 100px !important;
+        margin: 5px 0;
+    }
+
+    .carousel-inner,
+    .carousel-item div {
+        height: 110px;
+    }
+
+    .pro-img {
+        width: 55px !important;
+    }
+
+    .carousel-indicators {
+        margin-bottom: 0 !important;
+    }
+
+    .show-my-image img {
+        width: 50px;
+    }
+
+    .no-cart video,
+    .empty-cart-log video {
+        width: 80% !important;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .carousel-section {
+        top: 70px;
+    }
+
+    .copyright {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .carousel-section {
+        top: 80px;
+    }
+
+    .carousel-section .carousel .slide img,
+    .carousel {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .star-rating,
+    .star-customer {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:270px) {
+    .carousel-section {
+        top: 85px;
+    }
+
+    .carousel-section .carousel .slide img,
+    .carousel {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+}
